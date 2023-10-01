@@ -28,16 +28,16 @@ This project focuses on the evaluation and comparison of search-based and sampli
 
 The dataset [maps][Code/maps] consisting of 3-D environments. Each environment is characterized by its outer boundary, rectangular obstacle blocks, start coordinates, and goal coordinates. Here are the key components of the dataset:
 
-    1. **Outer Boundary:** The 3-D environment is enclosed by a rectangular outer boundary, defining the spatial limits for motion planning.
+1. **Outer Boundary:** The 3-D environment is enclosed by a rectangular outer boundary, defining the spatial limits for motion planning.
 
-    2. **Rectangular Obstacle Blocks:** Within the environment, there are rectangular obstacle blocks. Each block is described by a 9-dimensional vector, including:
-        - `(xmin, ymin, zmin)`: Coordinates of the lower-left corner of the obstacle block.
-        - `(xmax, ymax, zmax)`: Coordinates of the upper-right corner of the obstacle block.
-        - `(R, G, B)`: RGB color values for visualization.
+2. **Rectangular Obstacle Blocks:** Within the environment, there are rectangular obstacle blocks. Each block is described by a 9-dimensional vector, including:
+    - `(xmin, ymin, zmin)`: Coordinates of the lower-left corner of the obstacle block.
+    - `(xmax, ymax, zmax)`: Coordinates of the upper-right corner of the obstacle block.
+    - `(R, G, B)`: RGB color values for visualization.
 
-    3. **Start Coordinates (`xs`):** For each environment, the starting coordinates `xs` are specified, representing the initial position.
+3. **Start Coordinates (`xs`):** For each environment, the starting coordinates `xs` are specified, representing the initial position.
 
-    4. **Goal Coordinates (`xg`):** The goal coordinates `xg` are also provided, indicating the desired destination within the environment.
+4. **Goal Coordinates (`xg`):** The goal coordinates `xg` are also provided, indicating the desired destination within the environment.
 
 ### Source Code
 
