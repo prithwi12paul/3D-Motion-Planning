@@ -50,7 +50,7 @@ Python files
 
 ## How to run the code
 
-### FOR ASTAR ###
+### A* ###
 
 #### Files required:
 1. [main_astar.py](Code/main_astar.py)
@@ -69,7 +69,7 @@ In the [main_astar.py](Code/main_astar.py), choose the desired environment (envi
     - Room: 0.5 m
 
 #### Step 2:
-Run the `main_astar.py` file after updating the changes as mentioned in step 1.
+Run the [main_astar.py](Code/main_astar.py) file after updating the changes as mentioned in step 1.
 
  - In the terminal, use the following command:
      ```bash
@@ -78,7 +78,7 @@ Run the `main_astar.py` file after updating the changes as mentioned in step 1.
 
 Output: Plot of Path planned by A* in the chosen 3D environment
 
-### FOR RRT ###
+### RRT ###
 
 #### Files required:
 1. [main_rrt.py](Code/main_rrt.py)
