@@ -26,7 +26,7 @@ This project focuses on the evaluation and comparison of search-based and sampli
 
 ### Datasets
 
-The dataset [maps][Code/maps] consisting of 3-D environments. Each environment is characterized by its outer boundary, rectangular obstacle blocks, start coordinates, and goal coordinates. Here are the key components of the dataset:
+The dataset [maps](Code/maps) consisting of 3-D environments. Each environment is characterized by its outer boundary, rectangular obstacle blocks, start coordinates, and goal coordinates. Here are the key components of the dataset:
 
 1. **Outer Boundary:** The 3-D environment is enclosed by a rectangular outer boundary, defining the spatial limits for motion planning.
 
